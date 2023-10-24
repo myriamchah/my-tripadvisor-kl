@@ -1,0 +1,86 @@
+/* navbar */
+
+.navbar {
+  font-family: "TS-Med", sans-serif;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-search {
+  border: 2px solid #e0e0e0;
+  border-radius: 20px;
+  height: 40px;
+  flex-grow: 0.5;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav a:hover {
+  background-color: #f2f2f2;
+  border-radius: 20px;
+  padding: 10px 12px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.btn-black {
+  font-family: "TS-Med", sans-serif;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  height: 40px;
+  padding: 10px 16px;
+  font-size: 16px;
+}
+
+.sub-navbar {
+  padding-top: 32px;
+  padding-bottom: 24px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 24px;
+  height: 68px;
+}
+
+.card {
+  font-family: "TS-Med", sans-serif;
+  border: 1px solid black;
+  padding: 11px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-radius: 5px;
+  width: 180px;
+}
+
+.pictures {
+  margin-top: 24px;
+  display: flex;
+  flex-flow: column wrap;
+  height: 50vh;
+  gap: 4px;
+}
+
+/* .pictures img:first-of-type {
+  flex: 0 0 100%;
+  min-width: 60%;
+}
+
+.pictures img:not(:first-of-type) {
+  flex: 0 0 auto;
+  width: auto;
+} */

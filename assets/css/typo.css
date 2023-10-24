@@ -1,0 +1,28 @@
+h1 {
+  font-size: 54px;
+  font-weight: 800;
+}
+
+h1 span {
+  color: #ff5d5d;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+
+.baseline {
+  font-size: 14px;
+  color: #333333;
+}
+
+.baseline span {
+  text-decoration: underline;
+}

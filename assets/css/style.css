@@ -1,0 +1,14 @@
+@import "header.css";
+@import "typo.css";
+/* @import "main.css";
+@import "footer.css"; */
+
+body {
+  font-family: TS-Reg, sans-serif;
+}
+
+.container {
+  width: 60vw;
+  height: 100%;
+  margin: 0 auto;
+}
