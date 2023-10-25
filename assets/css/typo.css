@@ -1,6 +1,7 @@
 h1 {
   font-size: 54px;
-  font-weight: 800 !important;
+  font-family: "TS-Med", sans-serif;
+  font-weight: 800;
 }
 
 h1 span {
@@ -10,7 +11,7 @@ h1 span {
 h2 {
   font-size: 28px;
   margin: 16px 0;
-  font-weight: 600;
+  font-family: "TS-Med", sans-serif;
 }
 
 h3 {
@@ -26,4 +27,10 @@ h3 {
 
 .baseline span {
   text-decoration: underline;
+}
+
+a {
+  font-family: "TS-Med", sans-serif;
+  text-decoration: none;
+  color: inherit;
 }
