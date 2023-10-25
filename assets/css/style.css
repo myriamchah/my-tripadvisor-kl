@@ -1,7 +1,7 @@
 @import "header.css";
 @import "typo.css";
-/* @import "main.css";
-@import "footer.css"; */
+@import "main.css";
+/* @import "footer.css"; */
 
 body {
   font-family: TS-Reg, sans-serif;
@@ -11,4 +11,18 @@ body {
   width: 60vw;
   height: 100%;
   margin: 0 auto;
+}
+
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+}
+
+.two-columns div:first-child {
+  width: 60%;
+  padding-right: 40px;
+}
+
+.two-columns div:last-child {
+  width: 40%;
 }

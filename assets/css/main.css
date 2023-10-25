@@ -1,0 +1,59 @@
+main.container {
+  padding-top: 32px;
+  padding-bottom: 24px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 24px;
+  height: 68px;
+}
+
+.cards div {
+  font-family: "TS-Med", sans-serif;
+  border: 1px solid black;
+  padding: 11px 16px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+  width: 180px;
+}
+
+.pictures {
+  margin-top: 24px;
+  height: 50vh;
+  display: flex;
+  gap: 4px;
+}
+
+.pictures img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.pictures > div:first-child {
+  flex: 1;
+}
+
+.pictures > div:last-child {
+  height: calc((100% - 4px) / 2);
+  width: 480px;
+}
+
+.red-card {
+  background-color: #ff5d5d;
+  min-height: 400px;
+  padding: 16px;
+  border-radius: 10px;
+  background-image: url("../img/fake-map.png");
+  background-position: bottom;
+  background-size: 100% 45%;
+  background-repeat: no-repeat;
+}
+
+.red-card button {
+  margin-top: 16px;
+}
