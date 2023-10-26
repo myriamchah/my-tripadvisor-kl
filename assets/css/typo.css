@@ -22,7 +22,6 @@ h3 {
 .baseline {
   font-size: 14px;
   color: #333333;
-  margin-top: 16px;
 }
 
 .baseline span {
@@ -37,4 +36,8 @@ a {
 
 .text-20 {
   font-size: 20px;
+}
+
+.text-12 {
+  font-size: 12px;
 }

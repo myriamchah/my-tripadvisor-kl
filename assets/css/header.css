@@ -22,6 +22,18 @@ header {
   border-radius: 20px;
   height: 40px;
   flex-grow: 0.5;
+  position: relative;
+  padding-left: 30px;
+}
+
+.input-search:before {
+  position: absolute;
+  font-family: "IconTripAdvisor";
+  top: 8px;
+  left: 10px;
+  content: "\e056";
+  color: black;
+  font-size: 20px;
 }
 
 nav a {
@@ -42,6 +54,7 @@ nav ul {
 .btn-black {
   font-family: "TS-Med", sans-serif;
   background-color: black;
+  border-color: black;
   color: white;
   border-radius: 20px;
   height: 40px;

@@ -6,10 +6,7 @@
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/fonts.css" />
-    <script
-      src="https://kit.fontawesome.com/9fde4c7bac.js"
-      crossorigin="anonymous"
-    ></script>
+    <link rel="stylesheet" href="./assets/css/icons.css" />
     <title>My TripAdvisor</title>
   </head>
   <body>
@@ -17,7 +14,7 @@
       <div class="container">
         <nav class="navbar">
           <div class="menu-md">
-            <i class="fa-solid fa-bars"></i>
+            <i class="icon-menu_bars"></i>
             <img
               src="https://static.tacdn.com/img2/brand_refresh/Tripadvisor_logoset_solid_green.svg"
               alt="trip-advisor-logo-small"
@@ -29,7 +26,7 @@
             alt="tripadvisor-logo"
             width="180"
           />
-          <input type="text" class="input-search" />
+          <span class="input-search"></span>
           <ul>
             <li><a href="">Découvrir</a></li>
             <li><a href="">Préparer un voyage</a></li>
@@ -41,34 +38,34 @@
     </header>
     <main class="container">
       <h1><span>Explorez</span> Kuala Lumpur</h1>
-      <p class="baseline">
+      <p class="baseline mt-16">
         Les revenus influencent le choix des expériences présentées sur cette
         page : <span>en savoir plus</span>.
       </p>
       <section class="cards">
         <div>
           <p>Hôtels</p>
-          <i class="fa-solid fa-bed"></i>
+          <i class="icon-hotels"></i>
         </div>
         <div>
           <p>Activités</p>
-          <p><i class="fa-solid fa-ticket"></i></p>
+          <p><i class="icon-attractions"></i></p>
         </div>
         <div>
           <p>Locations de vacances</p>
-          <p><i class="fa-solid fa-house"></i></p>
+          <p><i class="icon-vacation_rentals"></i></p>
         </div>
         <div>
           <p>Restaurants</p>
-          <p><i class="fa-solid fa-utensils"></i></p>
+          <p><i class="icon-restaurants"></i></p>
         </div>
         <div>
           <p>Forums de voyage</p>
-          <i class="fa-solid fa-message"></i>
+          <i class="icon-forums"></i>
         </div>
         <div>
           <p>Plus</p>
-          <p><i class="fa-solid fa-ellipsis"></i></p>
+          <p><i class="icon-more_horizontal"></i></p>
         </div>
       </section>
       <section class="pictures">
@@ -89,8 +86,8 @@
           />
         </div>
       </section>
-      <p class="baseline">
-        Asie > Malaisie > Wilayah Persekutuan > Kuala Lumpur
+      <p class="baseline mt-16">
+        Asie > Malaisie > Wilayah Persekutuan > <span>Kuala Lumpur</span>
       </p>
       <section class="two-columns mt-40">
         <div>
@@ -127,7 +124,7 @@
               Des lieux à voir, des rues à explorer et des expériences
               emblématiques à Kuala Lumpur.
             </p>
-            <p class="baseline">Tout afficher</p>
+            <p class="baseline mt-16"><span>Tout afficher</span></p>
           </div>
           <ul class="carousel">
             <li>
@@ -136,10 +133,16 @@
                   src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/76/d5/e8/die-petronas-towers-sind.jpg?w=400&h=-1&s=1"
                   alt=""
                 />
-
-                <i class="fa-regular fa-heart"></i>
+                <i class="icon-heart"></i>
               </div>
               <p>Petronas Towers</p>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_half"></i>
+              <span>30355</span>
+              <p class="baseline">Bâtiments architecturaux</p>
             </li>
             <li>
               <div>
@@ -147,9 +150,16 @@
                   src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/9d/75/91/photo0jpg.jpg?w=400&h=-1&s=1"
                   alt=""
                 />
-                <i class="fa-regular fa-heart"></i>
+                <i class="icon-heart"></i>
               </div>
               <p>Bukit Tabur</p>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_half"></i>
+              <span>155</span>
+              <p class="baseline">Montagnes</p>
             </li>
             <li>
               <div>
@@ -157,9 +167,16 @@
                   src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/12/69/6d/17/img-20180225-154530-largejpg.jpg?w=400&h=300&s=1"
                   alt=""
                 />
-                <i class="fa-regular fa-heart"></i>
+                <i class="icon-heart"></i>
               </div>
               <p>Thean Hou Temple</p>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_half"></i>
+              <span>1474</span>
+              <p class="baseline">Sites religieux</p>
             </li>
             <li>
               <div>
@@ -167,9 +184,18 @@
                   src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/29/87/e5/a9/pavilion-kl-s-facade.jpg?w=400&h=300&s=1"
                   alt=""
                 />
-                <i class="fa-regular fa-heart"></i>
+                <i class="icon-heart"></i>
               </div>
               <p>Pavilion KL</p>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_half"></i>
+              <span>4157</span>
+              <p class="baseline">
+                Centres commerciaux, Vêtements et accessoires
+              </p>
             </li>
             <li>
               <div>
@@ -177,9 +203,16 @@
                   src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/0d/e7/81/da/hdr-1482016770481-largejpg.jpg?w=400&h=300&s=1"
                   alt=""
                 />
-                <i class="fa-regular fa-heart"></i>
+                <i class="icon-heart"></i>
               </div>
               <p>Batu Caves</p>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_empty"></i>
+              <span>13652</span>
+              <p class="baseline">Sites religieux, Grottes et Cavernes</p>
             </li>
             <li>
               <div>
@@ -187,9 +220,16 @@
                   src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/79/13/1b/photo1jpg.jpg?w=400&h=300&s=1"
                   alt=""
                 />
-                <i class="fa-regular fa-heart"></i>
+                <i class="icon-heart"></i>
               </div>
               <p>Petaling Street Market</p>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_half"></i>
+              <i class="icon-bubble_rating_empty"></i>
+              <span>122</span>
+              <p class="baseline">Marchés aux puces & Marchés de rue</p>
             </li>
           </ul>
         </div>
@@ -200,7 +240,7 @@
             <p class="font-times">
               Bistrots et bars typiques, et plus encore à Kuala Lumpur.
             </p>
-            <p class="baseline">Tout afficher</p>
+            <p class="baseline mt-16"><span>Tout afficher</span></p>
           </div>
           <ul class="carousel">
             <li>
@@ -209,9 +249,16 @@
                   src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/e8/44/ae/one-of-the-best-roti.jpg?w=400&h=300&s=1"
                   alt=""
                 />
-                <i class="fa-regular fa-heart"></i>
+                <i class="icon-heart"></i>
               </div>
               <p>Mansion Tea Stall</p>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <span>15</span>
+              <p class="baseline">€ • Asiatique, Malaisienne, Halal</p>
             </li>
             <li>
               <div>
@@ -219,9 +266,18 @@
                   src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/25/20/bf/99/snacks-on-the-tour-of.jpg?w=400&h=300&s=1"
                   alt=""
                 />
-                <i class="fa-regular fa-heart"></i>
+                <i class="icon-heart"></i>
               </div>
               <p>Beta KL</p>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <span>353</span>
+              <p class="baseline">
+                €€€€ • Asiatique, Malaisienne, Végétariens bienvenus
+              </p>
             </li>
             <li>
               <div>
@@ -229,9 +285,18 @@
                   src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1c/bd/6d/84/photo4jpg.jpg?w=400&h=300&s=1"
                   alt=""
                 />
-                <i class="fa-regular fa-heart"></i>
+                <i class="icon-heart"></i>
               </div>
               <p>Tarma Iraqi Street Food</p>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_half"></i>
+              <span>33</span>
+              <p class="baseline">
+                €€-€€€ • Moyen-Orient, Arabe, Végétariens bienvenus
+              </p>
             </li>
             <li>
               <div>
@@ -239,9 +304,16 @@
                   src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/18/7b/46/da/chargrilled-to-perfection.jpg?w=400&h=300&s=1"
                   alt=""
                 />
-                <i class="fa-regular fa-heart"></i>
+                <i class="icon-heart"></i>
               </div>
               <p>The Steakhouse KL</p>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_half"></i>
+              <span>1248</span>
+              <p class="baseline">€€-€€€ • Steakhouse, Plats sans gluten</p>
             </li>
             <li>
               <div>
@@ -249,9 +321,18 @@
                   src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/14/4b/e5/a4/madras-thali-served-until.jpg?w=400&h=300&s=1"
                   alt=""
                 />
-                <i class="fa-regular fa-heart"></i>
+                <i class="icon-heart"></i>
               </div>
               <p>Woodlands.my Vegetarian Restaurant</p>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_half"></i>
+              <span>11&</span>
+              <p class="baseline">
+                € • Indienne, Asiatique, Végétariens bienvenus
+              </p>
             </li>
             <li>
               <div>
@@ -259,9 +340,18 @@
                   src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/0e/3e/9d/photo0jpg.jpg?w=400&h=300&s=1"
                   alt=""
                 />
-                <i class="fa-regular fa-heart"></i>
+                <i class="icon-heart"></i>
               </div>
               <p>Tg's Nasi Kandar</p>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_full"></i>
+              <i class="icon-bubble_rating_half"></i>
+              <span>1023</span>
+              <p class="baseline">
+                € • Indienne, Asiatique, Végétariens bienvenus
+              </p>
             </li>
           </ul>
         </div>
