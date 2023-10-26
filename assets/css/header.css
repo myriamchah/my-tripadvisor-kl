@@ -1,3 +1,10 @@
+header {
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  z-index: 1;
+}
+
 .navbar {
   font-family: "TS-Med", sans-serif;
   height: 60px;

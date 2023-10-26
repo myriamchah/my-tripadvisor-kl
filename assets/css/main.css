@@ -1,5 +1,5 @@
 main.container {
-  padding-top: 32px;
+  padding-top: 92px;
   padding-bottom: 24px;
 }
 
@@ -63,6 +63,7 @@ main.container {
 div.row {
   display: flex;
   justify-content: space-between;
+  margin-top: 40px;
 }
 
 div.row > div:first-child {
@@ -87,5 +88,20 @@ ul.carousel {
 }
 
 .carousel li img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousel li div {
+  position: relative;
   width: 200px;
+}
+
+.carousel i {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  background-color: white;
+  padding: 8px;
+  border-radius: 50%;
 }

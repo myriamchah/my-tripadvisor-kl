@@ -22,3 +22,7 @@
   font-style: normal;
   font-display: swap;
 }
+
+.font-times {
+  font-family: Times, serif;
+}

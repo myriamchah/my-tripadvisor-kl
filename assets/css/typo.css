@@ -10,13 +10,13 @@ h1 span {
 
 h2 {
   font-size: 28px;
-  margin: 16px 0;
+  margin-bottom: 16px;
   font-family: "TS-Med", sans-serif;
 }
 
 h3 {
   font-size: 24px;
-  margin-bottom: 4px;
+  margin-bottom: 16px;
 }
 
 .baseline {
@@ -33,4 +33,8 @@ a {
   font-family: "TS-Med", sans-serif;
   text-decoration: none;
   color: inherit;
+}
+
+.text-20 {
+  font-size: 20px;
 }

@@ -9,7 +9,6 @@ body {
 
 .container {
   width: 60vw;
-  height: 100%;
   margin: 0 auto;
 }
 
@@ -25,4 +24,8 @@ body {
 
 .two-columns div:last-child {
   width: 40%;
+}
+
+.mt-40 {
+  margin-top: 40px;
 }
