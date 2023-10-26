@@ -9,6 +9,7 @@ main.container {
   justify-content: space-between;
   margin-top: 24px;
   height: 68px;
+  gap: 12px;
 }
 
 .cards div {
@@ -40,7 +41,7 @@ main.container {
 
 .pictures > div:last-child {
   height: calc((100% - 4px) / 2);
-  width: 480px;
+  width: 40%;
 }
 
 .red-card {
