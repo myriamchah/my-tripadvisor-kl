@@ -54,9 +54,12 @@ body {
 
 @media (max-width: 1024px) {
   header ul,
-  header button,
   header .navbar > img {
     display: none;
+  }
+
+  header button {
+    margin-left: auto;
   }
 
   .menu-md {
@@ -72,6 +75,10 @@ body {
 }
 
 @media (max-width: 768px) {
+  header button {
+    display: none;
+  }
+
   .pictures > div:last-child {
     display: none;
   }
