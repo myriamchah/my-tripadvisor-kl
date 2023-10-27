@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./assets/css/style.css" />
     <link rel="stylesheet" href="./assets/css/fonts.css" />
     <link rel="stylesheet" href="./assets/css/icons.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.1.3/axios.min.js"></script>
+    <script src="./assets/js/script.js"></script>
     <title>My TripAdvisor</title>
   </head>
   <body>
@@ -32,7 +34,47 @@
             <li><a href="">Préparer un voyage</a></li>
             <li><a href="">Participer</a></li>
           </ul>
-          <button class="btn-black">Connectez-vous</button>
+          <button class="btn-black" id="modalBtn">Connectez-vous</button>
+          <div class="modal">
+            <div class="modal-content">
+              <div class="header">
+                <p>Nous contacter</p>
+                <i class="icon-times"></i>
+              </div>
+              <form id="contactForm">
+                <input
+                  type="text"
+                  name="firstname"
+                  id="firstname"
+                  placeholder="Prénom"
+                />
+                <br />
+                <input
+                  type="text"
+                  name="lastname"
+                  id="lastname"
+                  placeholder="Nom"
+                />
+                <br />
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="email@email.com"
+                />
+                <br />
+                <textarea
+                  name="message"
+                  id="message"
+                  cols="30"
+                  rows="10"
+                  placeholder="Votre message..."
+                ></textarea>
+                <br />
+                <button type="submit">Envoyer</button>
+              </form>
+            </div>
+          </div>
         </nav>
       </div>
     </header>
