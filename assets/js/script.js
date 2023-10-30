@@ -1,8 +1,12 @@
 document.addEventListener("DOMContentLoaded", () => {
   // Toggle modal
-  document.querySelector("#modalBtn").addEventListener("click", () => {
+
+  const toggleModal = () => {
     document.querySelector("div.modal").classList.toggle("modal-show");
-  });
+  };
+
+  document.querySelector("#modalBtn").addEventListener("click", toggleModal);
+  document.querySelector(".icon-times").addEventListener("click", toggleModal);
 
   // Contact Form submit
 
