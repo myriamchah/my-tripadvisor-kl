@@ -6,7 +6,7 @@ header {
 }
 
 .navbar {
-  font-family: "TS-Med", sans-serif;
+  font-family: var(--ts-med);
   height: 60px;
   display: flex;
   justify-content: space-between;
@@ -52,7 +52,7 @@ nav ul {
 }
 
 .btn-black {
-  font-family: "TS-Med", sans-serif;
+  font-family: var(--ts-med);
   background-color: black;
   border-color: black;
   color: white;

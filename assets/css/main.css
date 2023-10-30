@@ -13,7 +13,7 @@ main.container {
 }
 
 .cards div {
-  font-family: "TS-Med", sans-serif;
+  font-family: var(--ts-med);
   border: 1px solid black;
   padding: 11px 16px;
   display: flex;

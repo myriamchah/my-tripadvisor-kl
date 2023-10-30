@@ -4,8 +4,16 @@
 @import "modal.css";
 @import "footer.css";
 
+:root {
+  /* Fonts */
+  --ts-reg: "TS-Reg", sans-serif;
+  --ts-med: "TS-Med", sans-serif;
+  --ts-vf: "Trip Sans VF", sans-serif;
+  --times: "Times New Roman", serif;
+}
+
 body {
-  font-family: TS-Reg, sans-serif;
+  font-family: var(--ts-reg);
 }
 
 .container {

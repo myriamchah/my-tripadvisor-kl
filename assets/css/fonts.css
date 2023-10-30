@@ -32,5 +32,5 @@
 }
 
 .font-times {
-  font-family: Times, serif;
+  font-family: var(--times);
 }
